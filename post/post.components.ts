@@ -1,0 +1,10 @@
+import { Component } from '@angular/core';
+@Component({
+  selector: 'app-post',
+  templateUrl: './post.components.html', 
+  styleUrls: ['./post.components.scss']
+})
+export class PostComponent {
+  title = 'High-Performance Computing';
+  text = 'High-performance computing (HPC) is the ability to process data and  perform complex calculations at high speeds.   HPC is one of the most essential  tools fueling the advancement of computational science..'
+}
